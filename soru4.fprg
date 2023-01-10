@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Samet"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-27 05:07:48 PM"/>
+        <attribute name="created" value="U2FtZXQ7REVTS1RPUC1UQ1NINlRKOzIwMjItMTAtMjc7MDQ6NTQ6MTAgUE07Mjg4MQ=="/>
+        <attribute name="edited" value="U2FtZXQ7REVTS1RPUC1UQ1NINlRKOzIwMjItMTAtMjc7MDU6MDc6NDggUE07MTM7MzA1MA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="yukseklik, kenar, alan" type="Integer" array="False" size=""/>
+            <input variable="yukseklik"/>
+            <input variable="kenar"/>
+            <assign variable="alan" expression="yukseklik*kenar/2"/>
+            <output expression="&quot;ucgenin alan&#305;:&quot; &amp;alan" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
